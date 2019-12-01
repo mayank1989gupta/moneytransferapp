@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.revolut.money.transfer.router.TransferRouterTest" time="2.561" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.revolut.money.transfer.router.TransferRouterTest" time="2.53" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
@@ -64,18 +64,18 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testTransfer_FromTransferFromInvalidAccount_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.057"/>
-  <testcase name="testTransfer_ForTransferAllMoney" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.049"/>
-  <testcase name="testTransfer_ForTransferToSelf_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.035"/>
-  <testcase name="testTransfer_UpdatedBalances" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.041"/>
-  <testcase name="testTransfer_ForTransferToInvalidAccount_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.031"/>
+  <testcase name="testTransfer_FromTransferFromInvalidAccount_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.032"/>
+  <testcase name="testTransfer_ForTransferAllMoney" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.047"/>
+  <testcase name="testTransfer_ForTransferToSelf_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.031"/>
+  <testcase name="testTransfer_UpdatedBalances" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.039"/>
+  <testcase name="testTransfer_ForTransferToInvalidAccount_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.025"/>
   <testcase name="testFetchTransfers_ReturnTransfersSortedByDateDesc" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.039"/>
-  <testcase name="testTransfer_ForInsufficientBalance_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.029"/>
-  <testcase name="testFetchTransferById_ForNonNumberId_ReturnErrorMessage" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.041"/>
-  <testcase name="testFetchAllTransfers" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.032"/>
+  <testcase name="testTransfer_ForInsufficientBalance_ReturnError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.032"/>
+  <testcase name="testFetchTransferById_ForNonNumberId_ReturnErrorMessage" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.059"/>
+  <testcase name="testFetchAllTransfers" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.03"/>
   <testcase name="testFetchTransferById" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.028"/>
-  <testcase name="testTransfer_ReturnSuccess" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.054"/>
-  <testcase name="testTransfer_ForNegativeAmount_ReturnValidationError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.032"/>
-  <testcase name="testFetchTransferById_ForInvlaidId_ReturnErrorMessage" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.027"/>
-  <testcase name="testTransfer_ForZEROAmount_ReturnValidationError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.03"/>
+  <testcase name="testTransfer_ReturnSuccess" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.041"/>
+  <testcase name="testTransfer_ForNegativeAmount_ReturnValidationError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.028"/>
+  <testcase name="testFetchTransferById_ForInvlaidId_ReturnErrorMessage" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.033"/>
+  <testcase name="testTransfer_ForZEROAmount_ReturnValidationError" classname="com.revolut.money.transfer.router.TransferRouterTest" time="0.029"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.revolut.money.transfer.validator.ValidatorTest" time="0.304" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.revolut.money.transfer.validator.ValidatorTest" time="0.162" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
@@ -64,18 +64,18 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testValidateTransferRequest_ValidNewTransfer" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.037"/>
-  <testcase name="testValidateTransferRequest_InvalidAccountCreation_ThrowIllegalStateException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.034"/>
+  <testcase name="testValidateTransferRequest_ValidNewTransfer" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.019"/>
+  <testcase name="testValidateTransferRequest_InvalidAccountCreation_ThrowIllegalStateException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.006"/>
   <testcase name="testValidateTransferRequest_ForSameAccounts_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
-  <testcase name="validateId_ValidId" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
+  <testcase name="validateId_ValidId" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.002"/>
   <testcase name="validateId_ForNumberAsString" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
-  <testcase name="testValidateTransferRequest_ValidAccount" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.003"/>
+  <testcase name="testValidateTransferRequest_ValidAccount" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.002"/>
   <testcase name="validateId_ForNegativeId_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
-  <testcase name="validateId_ForZeroId_ThrowValidationEx" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.002"/>
-  <testcase name="testValidateTransferRequest_ForNegativeAmount_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.002"/>
-  <testcase name="validateNumber_ForUnparsableNumber_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.003"/>
+  <testcase name="validateId_ForZeroId_ThrowValidationEx" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
+  <testcase name="testValidateTransferRequest_ForNegativeAmount_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
+  <testcase name="validateNumber_ForUnparsableNumber_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
   <testcase name="testValidateTransferRequest_ForNullNewTransfer_ThrowIllegalStateException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
-  <testcase name="validateAccountCreation_ForEmptyAccountNumber_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.003"/>
-  <testcase name="validateAccountCreation_InvalidAccountNumber_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.004"/>
-  <testcase name="validateAccountCreation_ForNegativeAccountBalance_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.003"/>
+  <testcase name="validateAccountCreation_ForEmptyAccountNumber_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
+  <testcase name="validateAccountCreation_InvalidAccountNumber_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
+  <testcase name="validateAccountCreation_ForNegativeAccountBalance_ThrowValidationException" classname="com.revolut.money.transfer.validator.ValidatorTest" time="0.001"/>
 </testsuite>

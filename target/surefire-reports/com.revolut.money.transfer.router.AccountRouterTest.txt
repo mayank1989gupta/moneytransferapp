@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.revolut.money.transfer.router.AccountRouterTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.473 sec - in com.revolut.money.transfer.router.AccountRouterTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.065 sec - in com.revolut.money.transfer.router.AccountRouterTest
