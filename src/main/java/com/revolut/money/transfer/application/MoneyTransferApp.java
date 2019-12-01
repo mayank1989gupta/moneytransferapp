@@ -35,6 +35,15 @@ public class MoneyTransferApp {
         transfer = new TransferRouter(new TransferService(database));
     }
 
+
+    // Main method to start the app
+    public static void main(String[] args) {
+        InMemoryDatabase db = new InMemoryDatabase();
+        MoneyTransferApp aaplication = new MoneyTransferApp(db);
+
+        aaplication.start();
+    }
+
     /**
      * Method to routers/api's.<br>
      *
@@ -48,6 +57,8 @@ public class MoneyTransferApp {
         registerResponseDataHandler();
         registerErrorHandler();
     }
+
+    /************************************ Private Methods ********************************************/
 
     /**
      * Method to build route for Account API's.<br>
@@ -81,13 +92,5 @@ public class MoneyTransferApp {
      */
     private void registerErrorHandler() {
         exception(Exception.class, errorsHandler.exceptionsHandler());
-    }
-
-    // Main method to start the app
-    public static void main(String[] args) {
-        InMemoryDatabase db = new InMemoryDatabase();
-        MoneyTransferApp aaplication = new MoneyTransferApp(db);
-
-        aaplication.start();
     }
 }
