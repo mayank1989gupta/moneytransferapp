@@ -1,4 +1,5 @@
-#Money Transferr Application
+#Money Transfer Application
+    
     Sample monney transfer app between acccounts built using
     Spark Java Framework &, HSQL.
     
