@@ -130,7 +130,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.revolut.money.transfer.application.MoneyTransferApp</mainClass>
+                            <mainClass>com.money.transfer.application.MoneyTransferApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

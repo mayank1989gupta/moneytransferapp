@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="moneytransferapp" />
+        <module name="SparkJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="moneytransferapp" target="1.8" />
+      <module name="SparkJava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

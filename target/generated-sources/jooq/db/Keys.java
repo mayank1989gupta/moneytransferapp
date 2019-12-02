@@ -9,7 +9,7 @@ import db.tables.Transfer;
 import db.tables.records.AccountRecord;
 import db.tables.records.TransferRecord;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.ForeignKey;
 import org.jooq.Identity;

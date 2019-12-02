@@ -1,6 +1,6 @@
-com/revolut/money/transfer/config/TestMemoryDatabase.class
-com/revolut/money/transfer/concurrency/ConcurrencyTest.class
-com/revolut/money/transfer/validator/ValidatorTest.class
-com/revolut/money/transfer/router/TransferRouterTest.class
-com/revolut/money/transfer/router/AccountRouterTest.class
-com/revolut/money/transfer/config/TestConfig.class
+com\money\transfer\config\TestConfig.class
+com\money\transfer\concurrency\ConcurrencyTest.class
+com\money\transfer\router\TransferRouterTest.class
+com\money\transfer\config\TestMemoryDatabase.class
+com\money\transfer\router\AccountRouterTest.class
+com\money\transfer\validator\ValidatorTest.class

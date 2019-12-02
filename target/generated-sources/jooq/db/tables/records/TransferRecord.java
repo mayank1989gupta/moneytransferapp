@@ -9,7 +9,7 @@ import db.tables.Transfer;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Field;
 import org.jooq.Record1;
@@ -31,7 +31,7 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class TransferRecord extends UpdatableRecordImpl<TransferRecord> implements Record5<Long, BigDecimal, Long, Long, Timestamp> {
 
-    private static final long serialVersionUID = -1829517668;
+    private static final long serialVersionUID = 264306593;
 
     /**
      * Setter for <code>PUBLIC.TRANSFER.ID</code>.

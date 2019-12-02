@@ -8,7 +8,7 @@ import db.tables.Account;
 
 import java.math.BigDecimal;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Field;
 import org.jooq.Record1;
@@ -30,7 +30,7 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class AccountRecord extends UpdatableRecordImpl<AccountRecord> implements Record3<Long, String, BigDecimal> {
 
-    private static final long serialVersionUID = -793951994;
+    private static final long serialVersionUID = 704517659;
 
     /**
      * Setter for <code>PUBLIC.ACCOUNT.ID</code>.

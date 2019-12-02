@@ -7,7 +7,7 @@ package db;
 import db.tables.Account;
 import db.tables.Transfer;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 import org.jooq.Index;
 import org.jooq.OrderField;
