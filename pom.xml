@@ -16,7 +16,7 @@
         <jooq.version>3.12.0</jooq.version>
         <sparkjava.version>2.9.1</sparkjava.version>
         <slf4j.version>1.7.25</slf4j.version>
-        <hsqldb.version>2.4.0</hsqldb.version>
+        <hsqldb.version>2.7.1</hsqldb.version>
         <junit.jupiter.version>5.0.1</junit.jupiter.version>
         <junit.platform.version>1.0.1</junit.platform.version>
     </properties>
